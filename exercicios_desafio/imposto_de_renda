@@ -1,0 +1,56 @@
+def main():
+    renda = float(input('Qual sua renda? '))
+    renda_atual = calculo(renda)
+    renda_corrigida = correcao_ir(renda)
+    print(f'Voçê paga R${renda - renda_atual:.2f} de imposto.')
+    print(f'Portanto, voçê tem R$ {renda_atual:.2f} líquido.')
+    print(f'Se fosse corrigida a tabela do IR voçê pagaria R$ {renda -renda_corrigida} de imposto.')
+    print(f'É ficaria com R$ {renda_corrigida} líquido.')
+
+
+def calculo(renda):
+    if renda <= 1903.98:
+        return renda
+    elif 1903.99 <= renda <= 2826.65:
+        imposto = (7.5 * renda) / 100
+        renda_atual = renda - imposto
+        return renda_atual
+    elif 2826.66 <= renda <= 3751.05:
+        imposto = (15 * renda) / 100
+        renda_atual = renda - imposto
+        return renda_atual
+    elif 3751.06 <= renda <= 4664.68:
+        imposto = (22.5 * renda) / 100
+        renda_atual = renda - imposto
+        return renda_atual
+    else:
+        imposto = (27.5 * renda) / 100
+        renda_atual = renda - imposto
+        return renda_atual
+
+
+def correcao_ir(renda):
+    if renda <= 3881.65:
+        return renda
+    elif 3881.66 <= renda <=  5714.11 :
+        imposto = (7.5 * renda) / 100
+        renda_atual = renda - imposto
+        return renda_atual
+    elif 5714.12 <= renda <= 7654.67:
+        imposto = (15 * renda) / 100
+        renda_atual = renda - imposto
+        return renda_atual
+    elif 7654.68 <= renda <= 9564.42:
+        imposto = (22.5 * renda) / 100
+        renda_atual = renda - imposto
+        return renda_atual
+    else:
+        imposto = (27.5 * renda) / 100
+        renda_atual = renda - imposto
+        return renda_atual
+
+
+main()
+
+
+
