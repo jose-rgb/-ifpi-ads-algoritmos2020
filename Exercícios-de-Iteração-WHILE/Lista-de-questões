@@ -1,1 +1,20 @@
-
+1. Leia N e escreva todos os números inteiros de 1 a N.
+2. Leia N e escreva todos os números inteiros pares de 1 a N.
+3. Leia as variáveis A0, Limite e R e escreva os valores menores que Limite gerados pela Progressão
+Aritmética que tem por valor inicial A0 e razão R.
+4. Leia as variáveis A0, Limite e R e escreva os valores menores que Limite gerados pela Progressão
+Geométrica que tem por valor inicial A0 e razão R.
+5. Leia um número, calcule e escreva seu fatorial.
+6. Escreva a tabuada dos números de 1 a 10.
+7. Leia um número N, some todos os números inteiros entre 1 e N e escreva o resultado obtido.
+8. Leia N , LimiteSuperior e LimiteInferior e escreva todos os múltiplos de N entre os limites lidos.
+9. Leia LimiteSuperior e LimiteInferior e escreva todos os números pares entre os limites lidos.
+10. Leia LimiteSuperior e LimiteInferior e escreva todos os números ímpares entre os limites lidos.
+11. Leia LimiteSuperior e LimiteInferior e escreva todos os números primos entre os limites lidos.
+12. Leia N e uma lista de N números e escreva a soma e a média de todos os números da lista.
+13. Leia N e uma lista de N números e escreva o maior número da lista.
+14. Leia N, calcule e escreva o maior quadrado menor ou igual a N. Por exemplo, se N for igual a 38, o
+maior quadrado menor que 38 é 36 (quadrado de 6).
+15. Leia N, calcule e escreva os N primeiros termos de seqüência (1, 3, 6, 10, 15,...).
+16. Leia um número N, calcule e escreva os N primeiros termos de seqüência de Fibonacci
+(0,1,1,2,3,5,8,...). O valor lido para N sempre será maior ou igual a 2.
