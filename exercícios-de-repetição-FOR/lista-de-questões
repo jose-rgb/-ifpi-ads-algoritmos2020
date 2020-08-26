@@ -1,1 +1,31 @@
-
+Leia N, calcule e escreva o valor de S.
+17. s = 1/1 + 1/2 +1/3 ... + 1/N
+18.s = 1/N + 1/N-1 +1/N-2 ... + N/1
+19. s = 1/N + N-1/2 + 3/N-2 ... + N/1
+20. s = 1/1 - 1/2 + 1/3 ... +/- 1/n
+21. s = 1/1 + 3/2 + 5/3 + 7/4 + ... + 9/50
+22. Um fazendeiro possui fichas de controle sobre sua boiada. Cada ficha contém numero de identificação,
+nome e peso (em kg) do boi. Escreva um algoritmo que leia os dados de N fichas e ao final, escreva o
+numero de identificação e o peso do boi mais magro e do boi mais gordo.
+23. Uma determinada empresa armazena para cada funcionário uma ficha contendo o código, o número de
+horas trabalhadas e o seu no de dependentes. Considerando que a empresa paga R$ 12,00 por hora e R$
+40,00 por dependentes e que sobre o salário são feitos descontos de 8,5% para o INSS e 5% para IR.
+Escreva um algoritmo que leia o código, número de horas trabalhadas e número de dependentes de N
+funcionários. Após a leitura de cada ficha, escreva os valores descontados para cada imposto e o salário
+líquido do funcionário.
+24. A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando dados sobre o salário e
+número de filhos. Escreva um algoritmo que leia o salário e o número de filhos de N habitantes e
+escreva:
+a) média de salário da população;
+b) média de número de filhos;
+c) percentual de pessoas com salário de até R$ 1.000,00.
+25. Em uma eleição presidencial existem 3 (três) candidatos. Os votos são informados através de códigos.
+Os dados utilizados para a contagem dos votos obedecem à seguinte codificação:
+· 1, 2, 3 = voto para os respectivos candidatos;
+· 9 = voto nulo;
+· 0 = voto em branco;
+Escreva um algoritmo que leia o código votado por N eleitores. Ao final, calcule e escreva:
+a) total de votos para cada candidato;
+b) total de votos nulos;
+c) total de votos em branco;
+d) quem venceu a eleição.
