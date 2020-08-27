@@ -1,0 +1,13 @@
+
+def main():
+    n = int(input('Digite N: '))
+
+    c = 1
+    resultado = 0
+    while c <= n:
+        resultado += 1 / c
+        c += 1
+    print(f' S é igual á: {resultado:.2f}')
+
+
+main()
