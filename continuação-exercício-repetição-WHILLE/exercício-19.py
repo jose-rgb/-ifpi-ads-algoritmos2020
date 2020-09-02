@@ -1,3 +1,4 @@
+#19. s = 1/N + N-1/2 + 3/N-2 ... + N/1
 def main():
     n = int(input('Digite N: '))
     numero = 1
