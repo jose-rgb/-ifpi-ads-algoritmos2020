@@ -1,1 +1,4 @@
-
+1. Leia N e escreva todos os números inteiros de 1 a N.
+2. Leia N e escreva todos os números inteiros pares de 1 a N.
+3. Leia as variáveis A0, Limite e R e escreva os valores menores que Limite gerados pela Progressão
+Aritmética que tem por valor inicial A0 e razão R.
