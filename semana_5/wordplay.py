@@ -1,15 +1,11 @@
 def main():
     
-    
     menu()
     option()
-
-
-
     
 def menu():
     print('########## WordPplay ##########\n0-Palavras com mais de 20 letras')
-    print('1-selecionar palavras com a letra que se desja.')
+    print('1-selecionar palavras com a letra que se desja.\n2-sair')
 
 
 def option():
@@ -24,7 +20,7 @@ def option():
 
         arquivo.close()
 
-    if option == 1:
+    elif option == 1:
         arquivo = open('words.txt')
         var = str(input('digite a letra: '))
         for linha in arquivo:
@@ -32,9 +28,14 @@ def option():
             verificador(palavra, var)
         arquivo.close()
 
-    if option != 1 or 2:
+    elif option == 2:
+        print('saindo....')
+
+    else:
         print('opção inválida')
         input('<<Enter>> para continuar')
+
+
 menu()
 option()
 
@@ -47,3 +48,6 @@ def verificador(palavra, var):
         
 
 main()
+       
+        
+
