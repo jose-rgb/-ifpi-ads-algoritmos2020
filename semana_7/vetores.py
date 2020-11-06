@@ -61,7 +61,6 @@ def mostrar_position(lista):
     for i in lista:
         if position == c:
             print(F'valor: {i}')
-        
         c += 1
 
     if position > len(lista) - 1:
